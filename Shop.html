@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Nova Shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .category-card {
+      background-color: #002b5c;
+      color: white;
+      padding: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .product-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+      padding: 10px;
+      background: white;
+      height: 250px;
+    }
+
+
+    .product-card img {
+      max-height: 150px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+     footer {
+      background: #001f3f;
+      color: #fff;
+      padding: 40px 0;
+    }
+
+    .newsletter {
+      background: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.jpg" alt="Tech Nova" width="120">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <i style="background-color: white;" class="bi bi-cart-plus"></i></li>     
+        <i style="background-color: white;" class="bi bi-suit-heart">
+          </i>
+        </li> 
+        <a href="#" class="btn btn-warning ms-3">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-3">
+    <div class="row">
+      <!-- Static Category Column -->
+      <div class="col-md-3">
+        <img src="assets/image (6).png" class="img-fluid" alt="Mobiles">
+        <div class="category-card">MOBILES</div>
+      </div>
+
+      <div class="col-md-9">
+        <div class="d-flex overflow-auto">
+          <div class="product-card">
+            <img src="assets/image 13.png" alt="iPhone">
+            <h6>Apple iPhone 16 Plus</h6>
+            <p>128GB sim free moblie</p>
+            <p>₹67,500</p>
+          </div>
+          <div class="product-card">
+            <img src="assets/image (15).png" alt="Samsung">
+            <h6>Samsung Galaxy A15</h6>
+            <p>double sim</p>
+            <p>₹60,500</p>
+          </div>
+          <div class="product-card">
+            <img src="assets/image (16).png" alt="Oneplus">
+            <h6>Smartphone Oneplus </h6>
+            <p> 12 5G 16/512gb Green</p>
+            <p>₹45,000</p>
+          </div>
+          <div class="product-card">
+            <img src="assets/image (17).png" alt="Vivo">
+            <h6>Vivo V40 pro 5G</h6>
+            <P>Ganges Blue,8GB RAM,256GB</P>
+            <p>₹20,800</p>
+          </div>
+          <div class="product-card">
+            <img src="assets/image (18).png" alt="iPhone">
+            <h6>Smartphone Realme </h6>
+            <p>12X 5GB 128/8RAM</p>
+            <p>₹25,800</p>
+          </div>
+          <div class="product-card">
+            <img src="assets/image (19).png" alt="iPhone">
+            <h6>Vivo V40 pro 5G</h6>
+            <P>Ganges Mirun,8GB RAM,256GB</P>
+            <p>₹30,800</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-3">
+      <div class="row">
+        <!-- Static Category Column -->
+        <div class="col-md-3">
+          <img src="assets/image (7).png" class="img-fluid" alt="Earport">
+          <div class="category-card">EARPORT</div>
+        </div>
+        <div class="col-md-9">
+          <div class="d-flex overflow-auto">
+            <div class="product-card">
+              <img src="assets/image (20).png" alt="samsung airpods">
+              <h6>Samsung Galaxybuds</h6>
+              <p>16,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (21).png" alt="a9pro Airpods">
+              <h6>A9proAirpods </h6>
+              <p>₹20,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (22).png" alt="Apple Airpods">
+              <h6>Apple Airpods 3 Rumored 16 Plus</h6>
+              <p>₹20,000</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (23).png" alt="TWS Airpods">
+              <h6>TWS earbuds</h6>
+              <p>₹11,800</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (24).png" alt="realme Airpods">
+              <h6>smarphone realme</h6>
+              <p>₹15,800</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (25).png" alt="Vivo Airpods">
+              <h6>VivoV50 Pro realme</h6>
+              <p>₹30,800</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-3">
+      <div class="row">
+        <!-- Static Category Column -->
+        <div class="col-md-3">
+          <img src="assets/image (8).png" class="img-fluid" alt="laptop">
+          <div class="category-card">LAPTOPS</div>
+
+        </div>
+        <div class="col-md-9">
+          <div class="d-flex overflow-auto">
+            <div class="product-card">
+              <img src="assets/image (31).png" alt="MAC Book">
+              <h6>Shop Techprotect MAC book</h6>
+              <p>1,16,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (30).png" alt=" HP">
+              <h6>HP</h6>
+              <p>₹80,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (29).png" alt=" ASUS">
+              <h6>ASUS</h6>
+              <p>₹20,000</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (28).png" alt=" APPLE">
+              <h6>APPLE</h6>
+              <p>₹1,11,800</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (27).png" alt=" ASUS">
+              <h6>ASUS PURPLE</h6>
+              <p>₹45,800</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (26).png" alt=" ASUS">
+              <h6>ASUS SILVER</h6>
+              <p>₹850,800</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-3">
+      <div class="row">
+        <!-- Static Category Column -->
+        <div class="col-md-3">
+          <img src="assets/image (10).png" class="img-fluid" alt="Smartwatches">
+          <div class="category-card">SMARTWATCHS</div>
+        </div>
+        <div class="col-md-9">
+          <div class="d-flex overflow-auto">
+            <div class="product-card">
+              <img src="assets/image (32).png" alt="noise">
+              <h6>Noise</h6>
+              <p>56,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (33).png" alt="apple">
+              <h6>apple</h6>
+              <p>80,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (34).png" alt="asus">
+              <h6>asus</h6>
+              <p>20,000</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (35).png" alt="noise">
+              <h6>Noise</h6>
+              <p>31,000</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (36).png" alt="song">
+              <h6>song</h6>
+              <p>45,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (37).png" alt="nothing">
+              <h6>nothing</h6>
+              <p>20,500</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-3">
+      <div class="row">
+        <!-- Static Category Column -->
+        <div class="col-md-3">
+          <img src="assets/image (12).png" class="img-fluid" alt="TABS">
+          <div class="category-card">TAB</div>
+        </div>
+        <div class="col-md-9">
+          <div class="d-flex overflow-auto">
+            <div class="product-card">
+              <img src="assets/image (43).png" alt="Apple ">
+              <h6>APPLE</h6>
+              <p>67,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (42).png" alt="samsung ">
+              <h6>Samsung Galaxy</h6>
+              <p>60,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (41).png" alt="OnePlus ">
+              <h6>ONEPLUS</h6>
+              <p>45,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (40).png" alt="VIVO ">
+              <h6>Vivo</h6>
+              <p>20,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (39).png" alt="HONOR ">
+              <h6>HONOR</h6>
+              <p>25,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (38).png" alt="NOTHING ">
+              <h6>nothing</h6>
+              <p>30,500</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-3">
+
+      <div class="row">
+        <!-- Static Category Column -->
+        <div class="col-md-3">
+          <img src="assets/CUISINART_220V_PROFESSIONAL 1.png" class="img-fluid" alt="Customer’s">
+          <div class="category-card">CUISINART</div>
+        </div>
+        <div class="col-md-9">
+          <div class="d-flex overflow-auto">
+            <div class="product-card">
+              <img src="assets/image (5).png" alt="cuisinart ">
+              <h6>cuisinart_waffle_maker</h6>
+              <p>11,999</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (3).png" alt="Icecream ">
+              <h6>CUISINART ICE MAKER</h6>
+              <p>21,000</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (4).png" alt="cuisinart ">
+              <h6>cuisinart ice cream machine</h6>
+              <p>49,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/card.png" alt="COFFEE ">
+              <h6>COFFEEMAKER</h6>
+              <p>15,000</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (1).png" alt="COFFEE ">
+              <h6>AUTOMATIC COFFEEMAKER</h6>
+              <p>25,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (2).png" alt="COFFEE ">
+              <h6>COLD COFFEEMAKER</h6>
+              <p>16,500</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-3">
+      <div class="row">
+        <!-- Static Category Column -->
+        <div class="col-md-3">
+          <img src="assets/image (50).png" class="img-fluid" alt="TABS">
+          <div class="category-card">G3 FERRARI</div>
+        </div>
+        <div class="col-md-9">
+          <div class="d-flex overflow-auto">
+            <div class="product-card">
+              <img src="assets/image (50).png" alt="Fryer ">
+              <h6>AIRFRYER</h6>
+              <p>27,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (49).png" alt="Hairdryer ">
+              <h6>HAIR DRYER</h6>
+              <p>2500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (48).png" alt="Fryer ">
+              <h6>AIRFRYER XXL</h6>
+              <p>18,000</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (47).png" alt="Fryer ">
+              <h6>DUAL AIRFRYER</h6>
+              <p>26,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (46).png" alt="Icecream ">
+              <h6>vanilla_ice_cream</h6>
+              <p>7,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/Pizza_maker 1.png" alt="Pasta ">
+              <h6>Pasta_maker_1</h6>
+              <p>12,700</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-3">
+      <div class="row">
+        <!-- Static Category Column -->
+        <div class="col-md-3">
+          <img src="assets/image (55).png" class="img-fluid" alt="COFFEEMAKER">
+          <div class="category-card">COFFEMAKER</div>
+        </div>
+        <div class="col-md-9">
+          <div class="d-flex overflow-auto">
+            <div class="product-card">
+              <img src="assets/image (51).png" alt="CERA ">
+              <h6>cera_plus</h6>
+              <p>10,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (52).png" alt="COFFEE ">
+              <h6>AUTOMATIC COLDCOFFEE MAKER</h6>
+              <p>16,000</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (53).png" alt="COFFEE ">
+              <h6>BREW COFFEEMAKER</h6>
+              <p>16,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (54).png" alt="COFFEE ">
+              <h6>citiz_and_milk_exclusive</h6>
+              <p>38,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (55).png" alt="COFFEE ">
+              <h6>GRAN COFFEEMAKER</h6>
+              <p>60,500</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image (56).png" alt="COFFEEMAKER ">
+              <h6>SHADOW BLACK COFFEEMAKER</h6>
+              <p>38,500</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Newsletter -->
+    <div class="container text-center my-5">
+      <h5 class="fw-bold">Weekly Newsletter</h5>
+      <p>Join Our Community And Never Miss An Update.</p>
+      <form class="newsletter-input d-flex">
+        <input type="email" class="form-control me-2" placeholder="Enter mail id">
+        <button class="btn btn-custom">Subscribe</button>
+      </form>
+    </div>
+    <!-- Footer Logos -->
+    <footer class="footer-logos text-center py-1 bg-light">
+      <div class="container">
+        <img src="assets/1000146511 (1).jpg">
+      </div>
+    </footer>
+    <!-- Footer -->
+    <footer>
+      <div class="col-md-10 d-flex">
+        <div class="row gx-3">
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo.jpg" alt="Tech Nova" width="130">
+          </a>
+        </div>
+        <div class="row gx-4">
+          <h5>Our Store</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shipping & Delivery</a></li>
+            <li><a href="#">FAQ’s</a></li>
+          </ul>
+          <br>
+        </div>
+        <div class="row gx-4">
+          <h5>Legal</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Return & Exchange</a></li>
+          </ul>
+          <br>
+        </div>
+        <div class="row gx-4">
+          <h5>Contact</h5>
+          <p>36, Ramakrishnapuram, Thindugal - 657 984</p>
+          <p>📞 89378 64789, 64784 56483</p>
+          <p>📧 Technova@Electronis.in</p>
+          <br>
+        </div>
+        <div>
+          <h5>Follow Us</h5>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-google"></i></a>
+          <hr class="bg-light">
+          <br>
+        </div>
+      </div>
+      <div class="col gx-4">
+        <p class="text-center mb-1">&copy; TECH NOVA. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</body>
+
+</html>
